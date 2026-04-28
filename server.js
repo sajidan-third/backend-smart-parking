@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', routes);
 
 app.get('/', (req, res) => {
-  res.json({ success: true, message: '✅ Server sukes! Berjalan di https://backend-parking-nine.vercel.app' });
+  res.json({ success: true, message: '✅ Server sukes berjalan!!' });
 });
 
 app.use((req, res) => {
